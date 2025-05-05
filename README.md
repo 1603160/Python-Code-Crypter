@@ -18,7 +18,7 @@ A sophisticated Python code obfuscation tool that combines compression, AES encr
 No installation required. Just ensure you have the dependencies:
 
 ```bash
-pip install pycryptodome
+pip3 install pycryptodome
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ pip install pycryptodome
 ### Basic Obfuscation
 
 ```bash
-python crypter.py -e input.py -o output.py
+python3 crypter.py -e input.py -o output.py
 ```
 
 ### Command Line Options
@@ -40,12 +40,12 @@ python crypter.py -e input.py -o output.py
 
 1. **Obfuscate and display in console:**
    ```bash
-   python crypter.py -e myscript.py
+   python3 crypter.py -e myscript.py
    ```
 
 2. **Obfuscate and save to file:**
    ```bash
-   python crypter.py -e myscript.py -o protected.py
+   python3 crypter.py -e myscript.py -o protected.py
    ```
 
 ## Technical Details
