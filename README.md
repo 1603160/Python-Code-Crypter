@@ -114,8 +114,6 @@ The generated loader contains:
 ## Limitations
 
 - Increases code size significantly
-- Not compatible with compiled Python (py2exe, PyInstaller)
-- May trigger AV scanners due to encryption patterns
 
 ## License
 
