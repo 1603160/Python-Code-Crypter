@@ -10,42 +10,6 @@ A sophisticated Python code obfuscation tool that combines compression, AES encr
 - **Standalone output**: Generates self-contained loader files
 - **Cross-platform**: Works on any system with Python 3.6+
 
--   _________________________________________________________
- /                                                         \
-|   PYTHON CODE CRYPTER                                    |
-|   --------------------                                   |
-|                                                         |
-|   [ Input Script ]                                       |
-|         |                                                |
-|         v                                                |
-|   +-------------------+                                  |
-|   |    COMPRESSION    |  (zlib)                          |
-|   +-------------------+                                  |
-|         |                                                |
-|         v                                                |
-|   +-------------------+                                  |
-|   | AES-256 ENCRYPTION|  (CBC mode with random IV)       |
-|   +-------------------+                                  |
-|         |                                                |
-|         v                                                |
-|   +-------------------+                                  |
-|   |    ENCODING       |  (Base85/Base64/Hex randomly)    |
-|   +-------------------+                                  |
-|         |                                                |
-|         v                                                |
-|   +-------------------+                                  |
-|   |  FRAGMENTATION    |  (40-60 char chunks)            |
-|   +-------------------+                                  |
-|         |                                                |
-|         v                                                |
-|   [ Obfuscated Loader ]                                  |
- \_________________________________________________________/
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-
 ## Installation
 
 No installation required. Just ensure you have the dependencies:
